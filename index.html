@@ -1,351 +1,564 @@
-
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<!DOCTYPE HTML>
+<!--
+	Future Imperfect by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
 	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title> Accueil </title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Template by FREEHTML5.CO" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FREEHTML5.CO" />
-
-  <!-- 
-	//////////////////////////////////////////////////////
-
-	FREE HTML5 TEMPLATE 
-	DESIGNED & DEVELOPED by FREEHTML5.CO
-		
-	Website: 		http://freehtml5.co/
-	Email: 			anouchka.recard@gmail.com
-	Instagram: 		https://www.instagram.com/anouchka.beal/
-	
-
-	//////////////////////////////////////////////////////
-	 -->
-
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
-
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="images/LogoChouette2.png">
-
-	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,600,400italic,700' rel='stylesheet' type='text/css'>
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Flexslider -->
-	<link rel="stylesheet" href="css/flexslider.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-
-	<!-- 
-	Default Theme Style 
-	You can change the style.css (default color purple) to one of these styles
-	
-	
-
-	-->
-	<link rel="stylesheet" href="css/style.css">
-
-	<!-- Styleswitcher ( This style is for demo purposes only, you may delete this anytime. ) -->
-	<link rel="stylesheet" id="theme-switch" href="css/style.css">
-	<!-- End demo purposes only -->
-
-
-	<style>
-	
-
-	.option-toggle {
-		position: absolute;
-		right: 0;
-		top: 0;
-		margin-top: 5px;
-		margin-right: -30px;
-		width: 30px;
-		height: 30px;
-		background: #8dc63f;
-		text-align: center;
-		border-top-right-radius: 4px;
-		border-bottom-right-radius: 4px;
-		color: #fff;
-		cursor: pointer;
-		-webkit-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-moz-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		-ms-box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-		box-shadow: 0 0 9px 0 rgba(0,0,0,.1);
-	}
-	.option-toggle i {
-		top: 2px;
-		position: relative;
-	}
-	.option-toggle:hover, .option-toggle:focus, .option-toggle:active {
-		color:  #fff;
-		text-decoration: none;
-		outline: none;
-	}
-	</style>
-	<!-- End demo purposes only -->
-
-
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
-
+		<title> Accueil </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
+	<body class="is-preload">
 
+		<!-- Wrapper -->
+			<div id="wrapper">
 
-	<!-- 
-		INFO:
-		Add 'boxed' class to body element to make the layout as boxed style.
-		Example: 
-		<body class="boxed">	
-	-->
-	<body>
-	
-	<!-- Loader -->
-	<div class="fh5co-loader"></div>
-	
-	<div id="fh5co-page">
-		<section id="fh5co-header">
-			<div class="container">
-				<nav role="navigation">
-					<ul class="pull-left left-menu">
-						<li><a href="index.html"> Accueil </a></li>
-						<li><a href="about.html"> A propos </a></li>
-						<li><a href="tour.html"> Peintures </a></li>
-						<li><a href="pricing.html"> Contacts </a></li>
-					</ul>
-
-					<!--<ul class="pull-right right-menu">
-						<li><a href="#">Login</a></li>
-						<li class="fh5co-cta-btn"><a href="#">Sign up</a></li>
-					</ul> -->
-				</nav>
-			</div>
-		</section>
-		<!-- #fh5co-header -->
-
-		<section id="fh5co-hero" class="js-fullheight" style="background-image: url(images/copie.jpg);" data-next="yes">
-			<div class="fh5co-overlay"></div>
-			<div class="container">
-				<div class="fh5co-intro js-fullheight">
-					<div class="fh5co-intro-text">
-						<!-- 
-							INFO:
-							Change the class to 'fh5co-right-position' or 'fh5co-center-position' to change the layout position
-							Example:
-							<div class="fh5co-right-position">
-						-->
-						<div class="fh5co-left-position">
-							<h2 class="animate-box"> La peinture c'est cool, partager aussi </h2>
-							<p class="animate-box"> <!--<a href="https://vimeo.com/channels/staffpicks/93951774" class="btn btn-outline popup-vimeo btn-video"><i class="icon-play2"></i> Watch video</a> --> <a href="https://www.instagram.com/anouchka.beal/" target="_blank" class="btn btn-primary">Visit my instagram </a></p>
-						</div>
-					</div>
-				</div>
-			</div>
-			<div class="fh5co-learn-more animate-box">
-				<a href="#" class="scroll-btn">
-					<span class="text"> Explorer </span>
-					<span class="arrow"><i class="icon-chevron-down"></i></span>
-				</a>
-			</div>
-		</section>
-		<!-- END #fh5co-hero -->
-
-
-		<section id="fh5co-projects">
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-
-					<div class="container">
-						<div class="row row-bottom-padded-lg">
-							<div class="col-md-6">
-								<figure class="animate-box">
-									<img src="images/LogoChouette2.png" alt="Free HTML5 Bootstrap Template by FREEHTML5.co" class="img-responsive">
-								</figure>
-							</div>
-							<div class="col-md-6">
-								<div class="fh5co-label animate-box">Who We Are</div>
-								<h2 class="fh5co-lead animate-box"> Tout a commencé avec une chouette</h2>
-								<p class="fh5co-sub-lead animate-box"> Dix-huit ans. Retrouvailles avec ma grand-mère maternelle. Dessin, gateau, peinture. Elle m'a acheté ma première toile. J'ai commencé à peindre, rarement, par manque de patience bien que l'envie soit là. Puis j'ai peint trois ans plus tard une chouette. C'est la première fois que je prenais autant de temps pour peindre une toile (deux jours). Patience à rude épreuve mais résultat qui m'a moi-même étonnée et donné envie de progresser. Bref, tout a commencé avec une chouette. Merci mamie.</p>
-								<p class="fh5co-sub-lead animate-box"> __________________________________________</p>
-								<p class="fh5co-sub-lead animate-box"> Logo par <a href="https://www.instagram.com/jonathan_trn_/"> @johnatan_trn_ </a> </p></p>
-
-
-							</div>
-						</div>
-
-					<!-- <div class="col-md-6 col-md-offset-3 text-center">
-						<h2 class="fh5co-lead animate-box"> Tout a commencé par une chouette</h2>
-						<p class="fh5co-sub-lead animate-box"> Dix-huit ans. Retrouvailles avec ma grand-mère maternelle, après cinq années sans se voir. Dessin, gateau, peinture. Elle m'a acheté ma première toile. J'ai commencé à peindre plutôt rarement par manque de patience bien que l'envie soit là. Puis j'ai peins trois ans plus tard une chouette. C'est la première fois que je prenais autant de temps pour peindre une toile (deux jours). Patience à rude épreuve mais résultat qui m'a moi-même impressionnée et qui m'a donné envie de progresser. Bref, tout a commencé par une chouette. Merci mamie.</p>
-						<h2 class="fh5co-lead animate-box"> Qui suis-je ? </h2>
-						<p class="fh5co-sub-lead animate-box"> Etudiante en mathématiques, statistiques et informatique appliquées, j'ai découvert une réelle passion pour la peinture en 2021 ; passion qui s'est accentuée cette année suite à un covid long. Je ne prétends pas être une pro, et encore moins que ce site soit utile. La patience et la technique sont les clefs de la réussite en peinture ; je n'ai ni l'un ni l'autre et j'ai très souvent le seum. Mais être têtue équilibre plutôt bien la balance. </p>
-					 ---> </div>
-				</div>
-			
-				<div class="row">
-					<h2 class="fh5co-lead animate-box"> Quelques peintures <br> </h2> 
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/IMG_20230430_182621_342.jpg" class="fh5co-project-item image-popup">
-							<img src="images/IMG_20230430_182621_342.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2> Quand le soleil tombe #georgio </h2>
-								<p> Deuxième peinture à l'huile, avril 2023</p>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/IMG_20230103_212051_686.jpg" class="fh5co-project-item image-popup">
-							<img src="images/IMG_20230103_212051_686.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2> Montagnes ou glaciers ?</h2>
-								<p> Acrylique, Janvier 2023</p>
-							</div>
-						</a>
-					</div>
-
-
-					<div class="col-md-4 col-sm-6 col-xxs-12 animate-box">
-						<a href="images/IMG_20230107_174052_859.jpg" class="fh5co-project-item image-popup">
-							<img src="images/IMG_20230107_174052_859.jpg" alt="Image" class="img-responsive">
-							<div class="fh5co-text">
-								<h2> Sapins d'hiver </h2>
-								<p> Acrylique, Décembre 2022 </p>
-							</div>
-						</a>
-					</div>
-					
-					
-				</div>
-			</div>
-		</section>
-
-
-
-		<footer id="fh5co-footer">
-			<div class="container">
-				<div class="row row-bottom-padded-md">
-					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-footer-widget">
-							<h3>Menu</h3>
-							<ul class="fh5co-links">
+				<!-- Header -->
+					<header id="header">
+						<h1 align="justify">Anouchka Récard</small></h1>
+						<nav class="links">
+							<ul>
 								<li><a href="index.html">Accueil</a></li>
-								<li><a href="about.html">A propos</a></li>
-								<li><a href="tour.html">Peintures</a></li>
-								<li><a href="pricing.html">Contacts</a></li>
+								<li><a href="peinture.html"> Peintures </a></li>
+								<li><a href="https://drive.google.com/file/d/1fpk9KTsTt-pLSGDl_2nrRwE6cj2aofuX/view?usp=sharing">Mon CV</a></li>
+								<li><a href="projetslicence.html"> Projets universitaires</a></li>
+								<li><a href="apropos.html"> A propos</a></li>
+
 							</ul>
-						</div>
+						</nav>
+						<nav class="main">
+							<ul>
+								
+								<li class="menu">
+									<a class="fa-bars" href="#menu">Menu</a>
+								</li>
+							</ul>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<section id="menu">
+
+					
+
+						<!-- Links -->
+							<section>
+								<ul class="links">
+									<li>
+										<a href="index.html">
+											<h3>Accueil</h3>
+											<p></p>
+										</a>
+									</li>
+									<li>
+										<a href="peinture.html">
+											<h3>Peintures</h3>
+										</a>
+									</li>
+									<li>
+										<a href="https://drive.google.com/file/d/1fpk9KTsTt-pLSGDl_2nrRwE6cj2aofuX/view">
+											<h3>Mon CV</h3>
+											
+										</a>
+									</li>
+									<li>
+										<a href="projetslicence.html">
+											<h3> Projets universitaires</h3>
+										</a>
+									</li>
+									<li>
+										<a href="apropos.html">
+											<h3> A propos </h3>
+										</a>
+									</li>
+								</ul>
+							</section>
+
+					
+
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<!--<h2><a href="single.html">Bienvenue sur mon site </a></h2> --> 
+										<p align="center"> Site en construction </p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2023-05-06"> 06 mai 2023</time>
+									</div>
+								</header>
+								<p align="justify"> Sortante d'un bac ES mention Bien, j'ai intégré en 2018 la licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales, à l'université Lumière, Lyon II. J'ai obtenu ma licence en 2022 mention assez-bien, et ai continué dans un master MIASHS Data Science et Machine Learning. Une réorientation est en cours. </p>
+								<p align="justify"> Vous trouverez sur ce site mes projets universitaires (liste non exhaustive), mon CV et mes peintures. <br> <br> Pas sûre que ce site soit utile mais c'est marrant. </p>
+
+									<ul class="actions">
+										<li><a href="projetslicence.html" class="button large">A propos </a></li>
+										<li><a href="https://drive.google.com/file/d/1fpk9KTsTt-pLSGDl_2nrRwE6cj2aofuX/view?usp=sharing" class="button large next">Voir le CV</a></li>
+										<li><a href="https://drive.google.com/file/d/1okPX-o87WfWJnMyXLqCnczqC3_HzjFD3/view?usp=sharing" class="button large next"> Lettres de Recommandation </a></li>
+										<li><a href="projetslicence.html" class="button large next"> Projets universitaires </a></li>
+
+									</ul>
+									
+								</article>
+
+						<!-- Post 
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="projetslicence.html"> Mes projets universitaires </a></h2>
+										<p> liste non exhaustive </p>
+									</div>
+									
+								</header>
+								<a href="single.html" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+								<p align="justify">Sortante d'un bac ES mention Bien, j'ai intégré en 2018 la licence Mathématiques et Informatique Appliquées aux Sciences Humaines et Sociales, à l'université Lumière, Lyon II. J'ai obtenu ma licence en 2022, avec la mention assez-bien (moyenne 13/20) </p>
+								<footer>
+									<ul class="actions">
+										<li><a href="projetslicence.html" class="button large">Découvrir</a></li>
+										<li><a href="https://drive.google.com/file/d/1fpk9KTsTt-pLSGDl_2nrRwE6cj2aofuX/view?usp=sharing" class="button large next">Voir le CV</a></li>
+										<li><a href="https://drive.google.com/file/d/1okPX-o87WfWJnMyXLqCnczqC3_HzjFD3/view?usp=sharing" class="button large next"> Lettres de Recommandation </a></li>
+
+									</ul>
+									
+								</footer>
+							</article> -->
+
+						<!-- Post -->
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2> Projets peintures </h2>
+										<p> Askip je suis une artiste </p>
+									</div>
+								
+								</header>
+								<a href="single.html" class="image featured"><img src="images/.jpg" alt="" /></a>
+									<ul class="actions">
+										<li><a href="peinture.html" class="button large">Découvrir </a></li>
+									</ul>
+
+								</footer>
+							</article>
+
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2> Me contacter</h2>
+									</div>
+								
+								</header>
+								<a href="single.html" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+								<section id="footer" align="center">
+									<p> Je reste disponible par mail et instagram. </p>
+									<ul class="icons">
+										<li><a href="https://www.instagram.com/anouchka.beal/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+										<li><a href="mailto:anouchka.recard@gmail.com" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+									</ul>
+								</section>
+	
+						</section>
+								</footer>
+							</article>
+
+							<section id="footer">
+								<p class="copyright">&copy; Untitled. Design: <a href="http://html5up.net">HTML5 UP</a>. Images: <a href="http://unsplash.com">Unsplash</a>.</p>
+						</section>
+						<!-- Post -->
+						<!--
+							<article class="post">
+								<header>
+									<div class="title">
+										<h2><a href="#">Elements</a></h2>
+										<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
+									</div>
+									<div class="meta">
+										<time class="published" datetime="2015-10-18">October 18, 2015</time>
+										<a href="#" class="author"><span class="name">Jane Doe</span><img src="images/avatar.jpg" alt="" /></a>
+									</div>
+								</header>
+
+								<section>
+									<h3>Text</h3>
+									<p>This is <b>bold</b> and this is <strong>strong</strong>. This is <i>italic</i> and this is <em>emphasized</em>.
+									This is <sup>superscript</sup> text and this is <sub>subscript</sub> text.
+									This is <u>underlined</u> and this is code: <code>for (;;) { ... }</code>. Finally, <a href="#">this is a link</a>.</p>
+									<hr />
+									<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat eu sed ante lacinia sapien lorem accumsan varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+									<hr />
+									<h2>Heading Level 2</h2>
+									<h3>Heading Level 3</h3>
+									<h4>Heading Level 4</h4>
+									<hr />
+									<h4>Blockquote</h4>
+									<blockquote>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan faucibus. Vestibulum ante ipsum primis in faucibus lorem ipsum dolor sit amet nullam adipiscing eu felis.</blockquote>
+									<h4>Preformatted</h4>
+									<pre><code>i = 0;
+
+while (!deck.isInOrder()) {
+  print 'Iteration ' + i;
+  deck.shuffle();
+  i++;
+}
+
+print 'It took ' + i + ' iterations to sort the deck.';</code></pre>
+								</section>
+
+								<section>
+									<h3>Lists</h3>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<h4>Unordered</h4>
+											<ul>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Sagittis adipiscing.</li>
+												<li>Felis enim feugiat.</li>
+											</ul>
+											<h4>Alternate</h4>
+											<ul class="alt">
+												<li>Dolor pulvinar etiam.</li>
+												<li>Sagittis adipiscing.</li>
+												<li>Felis enim feugiat.</li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<h4>Ordered</h4>
+											<ol>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Etiam vel felis viverra.</li>
+												<li>Felis enim feugiat.</li>
+												<li>Dolor pulvinar etiam.</li>
+												<li>Etiam vel felis lorem.</li>
+												<li>Felis enim et feugiat.</li>
+											</ol>
+											<h4>Icons</h4>
+											<ul class="icons">
+												<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+												<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+												<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+											</ul>
+										</div>
+									</div>
+									<h3>Actions</h3>
+									<div class="row">
+										<div class="col-6 col-12-medium">
+											<ul class="actions">
+												<li><a href="#" class="button">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions small">
+												<li><a href="#" class="button small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+												<li><a href="#" class="button">Default</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+												<li><a href="#" class="button small">Small</a></li>
+											</ul>
+										</div>
+										<div class="col-6 col-12-medium">
+											<ul class="actions stacked">
+												<li><a href="#" class="button fit">Default</a></li>
+												<li><a href="#" class="button fit">Default</a></li>
+											</ul>
+											<ul class="actions stacked">
+												<li><a href="#" class="button small fit">Small</a></li>
+												<li><a href="#" class="button small fit">Small</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+
+								<section>
+									<h3>Table</h3>
+									<h4>Default</h4>
+									<div class="table-wrapper">
+										<table>
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+
+									<h4>Alternate</h4>
+									<div class="table-wrapper">
+										<table class="alt">
+											<thead>
+												<tr>
+													<th>Name</th>
+													<th>Description</th>
+													<th>Price</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>Item One</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Two</td>
+													<td>Vis ac commodo adipiscing arcu aliquet.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Three</td>
+													<td> Morbi faucibus arcu accumsan lorem.</td>
+													<td>29.99</td>
+												</tr>
+												<tr>
+													<td>Item Four</td>
+													<td>Vitae integer tempus condimentum.</td>
+													<td>19.99</td>
+												</tr>
+												<tr>
+													<td>Item Five</td>
+													<td>Ante turpis integer aliquet porttitor.</td>
+													<td>29.99</td>
+												</tr>
+											</tbody>
+											<tfoot>
+												<tr>
+													<td colspan="2"></td>
+													<td>100.00</td>
+												</tr>
+											</tfoot>
+										</table>
+									</div>
+								</section>
+
+								<section>
+									<h3>Buttons</h3>
+									<ul class="actions">
+										<li><a href="#" class="button large">Large</a></li>
+										<li><a href="#" class="button">Default</a></li>
+										<li><a href="#" class="button small">Small</a></li>
+									</ul>
+									<ul class="actions fit">
+										<li><a href="#" class="button fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+										<li><a href="#" class="button fit">Fit</a></li>
+									</ul>
+									<ul class="actions fit small">
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+										<li><a href="#" class="button fit small">Fit + Small</a></li>
+									</ul>
+									<ul class="actions">
+										<li><a href="#" class="button icon solid fa-download">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-upload">Icon</a></li>
+										<li><a href="#" class="button icon solid fa-save">Icon</a></li>
+									</ul>
+									<ul class="actions">
+										<li><span class="button disabled">Disabled</span></li>
+										<li><span class="button disabled icon solid fa-download">Disabled</span></li>
+									</ul>
+								</section>
+
+								<section>
+									<h3>Form</h3>
+									<form method="post" action="#">
+										<div class="row gtr-uniform">
+											<div class="col-6 col-12-xsmall">
+												<input type="text" name="demo-name" id="demo-name" value="" placeholder="Name" />
+											</div>
+											<div class="col-6 col-12-xsmall">
+												<input type="email" name="demo-email" id="demo-email" value="" placeholder="Email" />
+											</div>
+											<div class="col-12">
+												<select name="demo-category" id="demo-category">
+													<option value="">- Category -</option>
+													<option value="1">Manufacturing</option>
+													<option value="1">Shipping</option>
+													<option value="1">Administration</option>
+													<option value="1">Human Resources</option>
+												</select>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-low" name="demo-priority" checked>
+												<label for="demo-priority-low">Low</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-normal" name="demo-priority">
+												<label for="demo-priority-normal">Normal</label>
+											</div>
+											<div class="col-4 col-12-small">
+												<input type="radio" id="demo-priority-high" name="demo-priority">
+												<label for="demo-priority-high">High</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-copy" name="demo-copy">
+												<label for="demo-copy">Email me a copy</label>
+											</div>
+											<div class="col-6 col-12-small">
+												<input type="checkbox" id="demo-human" name="demo-human" checked>
+												<label for="demo-human">Not a robot</label>
+											</div>
+											<div class="col-12">
+												<textarea name="demo-message" id="demo-message" placeholder="Enter your message" rows="6"></textarea>
+											</div>
+											<div class="col-12">
+												<ul class="actions">
+													<li><input type="submit" value="Send Message" /></li>
+													<li><input type="reset" value="Reset" /></li>
+												</ul>
+											</div>
+										</div>
+									</form>
+								</section>
+
+								<section>
+									<h3>Image</h3>
+									<h4>Fit</h4>
+									<div class="box alt">
+										<div class="row gtr-uniform">
+											<div class="col-12"><span class="image fit"><img src="images/pic02.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic05.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic06.jpg" alt="" /></span></div>
+											<div class="col-4"><span class="image fit"><img src="images/pic04.jpg" alt="" /></span></div>
+										</div>
+									</div>
+									<h4>Left &amp; Right</h4>
+									<p><span class="image left"><img src="images/pic07.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+									<p><span class="image right"><img src="images/pic04.jpg" alt="" /></span>Fringilla nisl. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Donec accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent.</p>
+								</section>
+
+							</article>
+						-->
+
+					
+
 					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-footer-widget">
-							<h3> Contact </h3>
-							<p>
-								<a href="mailto:anouchka.recard@gmail.com"> anouchka.recard@gmail.com </a> <br>
+				<!-- Sidebar -->
+					<section id="sidebar">
+
+						<!-- Intro -->
+							<section id="intro">
+								<p class="logo"><img src="images/portrait2.png" alt="" /></p>
+								<header>
+									<h2> M1 Mathématiques Informatique Appliquées aux Sciences Humaines et Sociales </h2>
+									<p> Data Science et Machine Learning </p>
+								</header>
+							</section>
+
+						<!-- Mini Posts
+							<section>
+								<div class="mini-posts">
+
+									 Mini Post 
+										<article class="mini-post">
+											<header>
+												<h3><a href="single.html">Vitae sed condimentum</a></h3>
+												<time class="published" datetime="2015-10-20">October 20, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic04.jpg" alt="" /></a>
+										</article>
+
+									 Mini Post
+										<article class="mini-post">
+											<header>
+												<h3><a href="single.html">Rutrum neque accumsan</a></h3>
+												<time class="published" datetime="2015-10-19">October 19, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic05.jpg" alt="" /></a>
+										</article>
+
+									 Mini Post 
+										<article class="mini-post">
+											<header>
+												<h3><a href="single.html">Odio congue mattis</a></h3>
+												<time class="published" datetime="2015-10-18">October 18, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic06.jpg" alt="" /></a>
+										</article>
+
+									Mini Post
+										<article class="mini-post">
+											<header>
+												<h3><a href="single.html">Enim nisl veroeros</a></h3>
+												<time class="published" datetime="2015-10-17">October 17, 2015</time>
+												<a href="#" class="author"><img src="images/avatar.jpg" alt="" /></a>
+											</header>
+											<a href="single.html" class="image"><img src="images/pic07.jpg" alt="" /></a>
+										</article>
+
+								</div>
+							</section>
+
+						
+
+						<!-- Footer -->
 			
-							</p>
-						</div>
-					</div>
 
-					<div class="col-md-3 col-sm-6 col-xs-12 animate-box">
-						<div class="fh5co-footer-widget">
-							<h3> Réseaux sociaux </h3>
-							<ul class="fh5co-social">
-								<li><a href="https://www.facebook.com/anouchka.rcd.7"><i class="icon-facebook"></i></a></li>
-								<li><a href="https://www.instagram.com/anouchka.beal/"><i class="icon-instagram"></i></a></li>
-							</ul>
-						</div>
-					</div>
-
-				</div>
-				
 			</div>
-			<div class="fh5co-copyright animate-box">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-12">
-							<p class="fh5co-left"><small>&copy; 2016 <a href="index.html">Guide</a> free html5. All Rights Reserved.</small></p>
-							<p class="fh5co-right"><small class="fh5co-right"> CSS designed by <a href="http://freehtml5.co" target="_blank">FREEHTML5.co</a> </p> </small>
-						</div>
-					</div>
-				</div>
-			</div>
-		</footer>
-		<!-- END #fh5co-footer -->
-	</div>
-	<!-- END #fh5co-page -->
 
-
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Flexslider -->
-	<script src="js/jquery.flexslider-min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-
-	
-
-	<!-- Main JS (Do not remove) -->
-	<script src="js/main.js"></script>
-
-	<!-- 
-	INFO:
-	jQuery Cookie for Demo Purposes Only. 
-	The code below is to toggle the layout to boxed or wide 
-	-->
-	<script src="js/jquery.cookie.js"></script>
-	<script>
-		$(function(){
-
-			if ( $.cookie('layoutCookie') != '' ) {
-				$('body').addClass($.cookie('layoutCookie'));
-			}
-
-			$('a[data-layout="boxed"]').click(function(event){
-				event.preventDefault();
-				$.cookie('layoutCookie', 'boxed', { expires: 7, path: '/'});
-				$('body').addClass($.cookie('layoutCookie')); // the value is boxed.
-			});
-
-			$('a[data-layout="wide"]').click(function(event){
-				event.preventDefault();
-				$('body').removeClass($.cookie('layoutCookie')); // the value is boxed.
-				$.removeCookie('layoutCookie', { path: '/' }); // remove the value of our cookie 'layoutCookie'
-			});
-		});
-	</script>
-	
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
-
